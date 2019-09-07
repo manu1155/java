@@ -26,10 +26,10 @@ class info
   public static void main(String args[])
    {
      book a[] =new book[4];
-     a[0]=new book("FARMER","NIKHIL",500.0,800);
-     a[1]=new book("tourism","MADHUKESH",100.0,1000);
-     a[2]=new book("animal","NIKHIL",50.0,100);
-     a[3]=new book("aquarium","PRANAV",0.0,550);
+     a[0]=new book("FARMER","NAPOLEAN ",500.0,800);
+     a[1]=new book("KINGS AND GODS","LOPEZ MAXI",100.0,1000);
+     a[2]=new book("FRIENDS","LUCA A",50.0,100);
+     a[3]=new book("AQUA","Poalini",0.0,550);
     for(int i=0;i<4;i++)
      a[i].book_display();
    }
