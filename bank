@@ -16,10 +16,10 @@ class savings extends bank
   t=b;
   r=c;
   double w;
-  System.out.println("Enter the amount u wish to withdraw");
+  System.out.println("Enter the amount you wish to withdraw");
   w=s.nextDouble();
   double CI=(p-w)*Math.pow((1+r),t);
-  System.out.println("Compound interst of ur principle amount ="+CI);
+  System.out.println("Compound interst of the principle amount ="+CI);
  }
  
  
@@ -33,9 +33,9 @@ class current extends bank
   t=b;
   r=c;
   if(p<=1000)
-    System.out.println("Your account balance is running below the minimum balance ,hence you will be charged penalty");
+    System.out.println("Your account balance is below the minimum balance ,hence you will be charged penalty as per the charges");
   else
-   System.out.println("U are eligible to receive and use check book");
+   System.out.println("You are eligible to receive and use check book");
  }
 }
 class main1
@@ -51,7 +51,7 @@ class main1
   int b=s.nextInt();
   System.out.println("Enter the value of rate of interest in percentage");
   double c=s.nextDouble();
-  System.out.println("If ur account is savings : press 1\nif ur account is current account : press 2");
+  System.out.println("If your account is of type savings account : press 1\n i\If your account is of type current account : press 2");
   int n=s.nextInt();
   if(n==1)
    a1.info(a,b,c);
