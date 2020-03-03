@@ -7,7 +7,7 @@ class bank
  public double r;
 }
 
-class savings extends bank
+class savings extends banko;ko
 {
  public void info(double a,int b,double c)
  {
